@@ -1,0 +1,15 @@
+h1, h2 {
+    color: blueviolet;
+}
+
+.box p {
+    color: red;
+}
+
+.box ul {
+    color: green;
+}
+
+li.done {
+    color: #000;
+}
