@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Typing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <div id="starting_window" class="starting-window">
+        <img src="assets/typing.gif" alt="background" class="background">
+        <h1 class="head">Typing Word Game</h1>
+        <ul class="instructions">
+            <li>Press the letters.</li>
+            <li>Correct letters will be displayed in green.</li>
+            <li>Incorrect letters will be displayed in red.</li>
+            <li>You will have 2 seconds for each word.</li>
+        </ul>
+        <p class="start-game">Press <strong>"Space"</strong> to Start Game</p>
+    
+    
+    </div>
+
+    <div class="playing_window" id="playing_window">
+        <h1 id="focusWord"></h1>
+        <button onclick="addColor()">Start</button>
+
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

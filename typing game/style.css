@@ -36,3 +36,7 @@ body{
     background-color: aqua;
     border-radius: 12px;
 }
+
+progress{
+    width: 80%;
+}
