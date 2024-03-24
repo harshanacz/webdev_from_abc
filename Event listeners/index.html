@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pgrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto harum ad eligendi quibusdam mollitia recusandae beatae omnis laborum cupiditate! Delectus dolorem commodi et debitis. At quasi reiciendis ea ipsam fugiat?</p>
+    <button id="btn">Click me</button>
+    <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', function() {
+            alert('Button clicked');
+        });
+
+        document.getElementById('pgrp').addEventListener('copy', function() {
+            alert('Copied');
+        });
+    </script>
+</body>
+</html>
