@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        } 
+
+        .buttonChange{
+            background-color: aqua;
+        }
+        </style>
+</head>
+<body>
+    <h3>Hello, Let's Login</h3>
+    <button id="btn" onclick="buttonClicked()">Login</button>
+
+    <script>
+        function buttonClicked(){
+            let button1 = document.getElementById('btn')
+            let buttonContent =  button1.innerHTML
+            if(buttonContent == 'Login'){
+                button1.innerHTML = 'LogOut'
+                button1.classList.add('buttonChange')
+            }else{
+                button1.innerHTML = 'Login'
+                button1.classList.remove('buttonChange')
+                
+            }
+           
+            
+        }
+        
+        
+    </script>
+</body>
+</html>
