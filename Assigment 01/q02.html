@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     const objectArray = [
+        {name: "ruwan", item: 11}, {name: "Auwan", item: 13},{name: "RAS", item: 22},
+     ]
+
+     //method 01
+    //  for(let i = 0 ; i<objectArray.length ; i++){
+    //     if(objectArray[i].item > 12){
+    //         console.log(objectArray[i].name);
+    //     }
+    //  }
+
+
+    //method 02 - return an array
+    const topStudents =  objectArray.filter((object)=>{
+        return object.item>12;
+    });
+
+    console.log(topStudents);
+    </script>
+</body>
+</html>
