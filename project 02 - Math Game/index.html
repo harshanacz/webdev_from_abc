@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start button -->
+    <div class="container">
+        <a onclick="startTheGame()" class="button button--hoo" id="start-btn">
+            <div class="button__wrapper">
+                <span class="button__text">Start</span>
+            </div>
+            <div class="characterBox">
+                <div class="character wakeup">
+                    <div class="character__face"></div>
+                    <div class="charactor__face2"></div>
+                    <div class="charactor__body"></div>
+                </div>
+                <div class="character wakeup">
+                    <div class="character__face"></div>
+                    <div class="charactor__face2"></div>
+                    <div class="charactor__body"></div>
+                </div>
+                <div class="character wakeup">
+                    <div class="character__face"></div>
+                    <div class="charactor__face2"></div>
+                    <div class="charactor__body"></div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="game-area">
+        <h1 class="level-text">Level 01</h1>
+        <div class="equation">
+            <h2 class="round-inline">21</h2>
+            <h2 class="symbol">+</h2>
+            <h2 class="round-inline">15</h2>
+        </div>
+      
+
+        <h2 class="user-answer">Enter Answer</h2>
+        <p class="instructions">After finishing, press 'Enter'. </p>
+        <hr class="horizontal-line">
+        <h1 class="timer-text">You have 2 Sec.</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
